@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .babyblue {
+      color: #95f5ff;
+    }
+    .buttonMainMenu
+    {
+      background-color: Yellow; 	
+      color: Black;
+      border-radius: 20px;
+    }
+    .buttonsize 
+    {  
+      height: 60px; 
+    }
+    .variables
+    {
+			  	margin: 0;
+				 position: absolute;
+				 bottom: -60%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			}
+    #containereyesbtn
+    {
+    		text-align: center;
+    }
+    #containersunsbtn
+    {
+    		text-align: center;
+    }
+    #containerextbtn
+    {
+    		text-align: center;
+    }
+    #containertrainandupgradebtn
+    {
+    		text-align: center;
+    }
+  </style>
+  <script>
+  				function openEyes() {
+  				   open('eyes.html')
+  				}
+  				function openSuns() {
+  				   open('suns.html')
+  				}
+  				function openExt() {
+  				   open('ext.html')
+  				}
+  				var level = 1;
+  </script>
+</head>
+<body bgcolor="black">
+  <p align="center" class="wide centered babyblue"><font size="15">
+    Heroes of Ugliness
+  </font></p>
+  <div id="containereyesbtn">
+  				<button id="defeateyesbtn" onclick="openEyes()" class="buttonMainMenu buttonsize">
+      Defeat 3 Eye See You
+      </font></button><br>
+  </div>
+  <div id="containersunsbtn">
+      <button id="defeatsunsbtn" onclick="openSuns()" class="buttonMainMenu buttonsize">
+      Defeat 3 Mother Suns
+      </font></button><br>
+  </div>
+  <div id="containerextbtn">
+      <button id="defeatextbtn" onclick="openExt()" class="buttonMainMenu buttonsize">
+      Defeat Exterminator
+      </font></button><br>
+  </div>
+  <div id="containertrainandupgradebtn">
+  <button id="trainbtn" class="buttonMainMenu buttonsize">
+  				Train
+  </font></button>
+    <button id="upgradebtn" class="buttonMainMenu buttonsize">
+  				Upgrade
+  </font></button>
+  </div>
+</body>
+</html>
